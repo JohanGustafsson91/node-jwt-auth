@@ -5,7 +5,6 @@ var router = require('express').Router();
 var path = require('path');
 var constants = require('../../constants');
 var uuid = require('uuid');
-var sendgrid = require("sendgrid")(constants.SENDGRID_APIKEY);
 
 // Import models
 var User = require('../models/user');
